@@ -1,0 +1,93 @@
+{
+  "vitaminA": {
+    "alternateName": ["retinol"],
+    "dose": {
+      "unitOfMeasurement": "mcg",
+      "value": 900
+    }
+  },
+  "vitaminD": {
+    "alternateName": [],
+    "dose": {
+      "unitOfMeasurement": "IU",
+      "value": 600
+    }
+  },
+  "vitaminE": {
+    "alternateName": [],
+    "dose": {
+      "unitOfMeasurement": "mg",
+      "value": 15
+    }
+  },
+  "vitaminK": {
+    "alternateName": [],
+    "dose": {
+      "unitOfMeasurement": "mcg",
+      "value": 120
+    }
+  },
+  "vitaminC": {
+    "alternateName": ["ascorbic acid"],
+    "dose": {
+      "unitOfMeasurement": "mg",
+      "value": 90
+    }
+  },
+  "vitaminB1": {
+    "alternateName": ["thiamine"],
+    "dose": {
+      "unitOfMeasurement": "mg",
+      "value": 1.2
+    }
+  },
+  "vitaminB2": {
+    "alternateName": ["riboflavin"],
+    "dose": {
+      "unitOfMeasurement": "mg",
+      "value": 1.3
+    }
+  },
+  "vitaminB3": {
+    "alternateName": ["niacin"],
+    "dose": {
+      "unitOfMeasurement": "mg",
+      "value": 16
+    }
+  },
+  "vitaminB5": {
+    "alternateName": ["pantothenic acid"],
+    "dose": {
+      "unitOfMeasurement": "mg",
+      "value": 5
+    }
+  },
+  "vitaminB6": {
+    "alternateName": ["pyridoxine"],
+    "dose": {
+      "unitOfMeasurement": "mg",
+      "value": 1.3
+    }
+  },
+  "vitaminB7": {
+    "alternateName": ["biotin"],
+    "dose": {
+      "unitOfMeasurement": "mcg",
+      "value": 30
+    }
+  },
+  "vitaminB9": {
+    "alternateName": ["folate", "folic acid"],
+    "dose": {
+      "unitOfMeasurement": "mcg",
+      "value": 400
+    }
+  },
+  "vitaminB12": {
+    "alternateName": [],
+    "dose": {
+      "unitOfMeasurement": "mcg",
+      "value": 2.4
+    }
+  }
+}
