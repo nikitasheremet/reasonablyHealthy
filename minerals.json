@@ -1,0 +1,100 @@
+{
+  "potassium": {
+    "alternateName": [],
+    "dose": {
+      "unitOfMeasurement": "mg",
+      "value": 4700
+    }
+  },
+  "sodium": {
+    "alternateName": ["chloride", "sodium chloride"],
+    "dose": {
+      "unitOfMeasurement": "mg",
+      "value": 2000
+    }
+  },
+  "calcium": {
+    "alternateName": [],
+    "dose": {
+      "unitOfMeasurement": "mg",
+      "value": 800
+    }
+  },
+  "phosphorus": {
+    "alternateName": [],
+    "dose": {
+      "unitOfMeasurement": "mg",
+      "value": 1000
+    }
+  },
+  "magnesium": {
+    "alternateName": [],
+    "dose": {
+      "unitOfMeasurement": "mg",
+      "value": 400
+    }
+  },
+  "iron": {
+    "alternateName": [],
+    "dose": {
+      "unitOfMeasurement": "mg",
+      "value": 8
+    }
+  },
+  "zinc": {
+    "alternateName": [],
+    "dose": {
+      "unitOfMeasurement": "mg",
+      "value": 11
+    }
+  },
+  "manganese": {
+    "alternateName": [],
+    "dose": {
+      "unitOfMeasurement": "mg",
+      "value": 2.3
+    }
+  },
+  "copper": {
+    "alternateName": [],
+    "dose": {
+      "unitOfMeasurement": "mcg",
+      "value": 900
+    }
+  },
+  "iodine": {
+    "alternateName": [],
+    "dose": {
+      "unitOfMeasurement": "mcg",
+      "value": 150
+    }
+  },
+  "chromium": {
+    "alternateName": [],
+    "dose": {
+      "unitOfMeasurement": "mcg",
+      "value": 35
+    }
+  },
+  "molybdenum": {
+    "alternateName": [],
+    "dose": {
+      "unitOfMeasurement": "mcg",
+      "value": 45
+    }
+  },
+  "selenium": {
+    "alternateName": [],
+    "dose": {
+      "unitOfMeasurement": "mcg",
+      "value": 55
+    }
+  },
+  "cobalt": {
+    "alternateName": [],
+    "dose": {
+      "unitOfMeasurement": "mcg",
+      "value": 5
+    }
+  }
+}
