@@ -1,14 +1,17 @@
 <script setup lang="ts">
-import { computed, ref } from "vue";
+import { computed, ref, watch } from "vue";
 
-const arrayOfPossibleFoodItems = ["tomato", "cucumber", "carrot"];
+const emit = defineEmits(["inputChange"]);
 
-// Stateful data
+const props = defineProps<{
+  foodItems: Object;
+}>();
+
+const arrayOfPossibleFoodItems = Object.keys(props.foodItems);
+
 const inputText = ref("");
 const inputTextInFocus = ref(true);
-/////////////
 
-// Computed data
 const filteredDownPossibleFoodItems = computed(() => {
   return arrayOfPossibleFoodItems.filter(
     (foodItemSuggestion) =>
@@ -19,7 +22,10 @@ const filteredDownPossibleFoodItems = computed(() => {
 const isFoodSuggestionShown = computed(() => {
   return filteredDownPossibleFoodItems.value.length && inputTextInFocus.value;
 });
-////////////
+
+watch(inputText, (newValue, _) => {
+  emit("inputChange", newValue);
+});
 
 const handleInputFocusOut = (event: FocusEvent) => {
   if (event.relatedTarget) {

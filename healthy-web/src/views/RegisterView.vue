@@ -1,10 +1,12 @@
 <script setup lang="ts">
+import FoodEntry from "@/components/FoodEntry.vue";
 import FoodItemInput from "@/components/FoodItemInput.vue";
+import FoodItemServingSize from "@/components/FoodItemServingSize.vue";
 </script>
 <template>
   <main>
     <h1>Register: Create a new account</h1>
-    <FoodItemInput></FoodItemInput>
+    <FoodEntry />
     <form>
       <div>
         <label for="registration-input-email">Email:</label>

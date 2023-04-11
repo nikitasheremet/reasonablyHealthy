@@ -2,10 +2,15 @@ import { describe, expect, it, afterEach, beforeEach } from "vitest";
 import FoodItemInput from "../FoodItemInput.vue";
 
 import { render, screen, fireEvent, cleanup } from "@testing-library/vue";
+import fakeFoodItemDetails from "./fixtures/fakeFoodItems";
+
+const fakeFoodItems = Object.keys(fakeFoodItemDetails);
 
 describe("FoodItemInput", () => {
   beforeEach(() => {
-    render(FoodItemInput);
+    render(FoodItemInput, {
+      props: { foodItems: fakeFoodItemDetails },
+    });
   });
   afterEach(() => {
     cleanup();
@@ -18,7 +23,7 @@ describe("FoodItemInput", () => {
       "Please enter your food item"
     );
 
-    const fakeInput = "fake input";
+    const fakeInput = fakeFoodItems[1];
 
     await fireEvent.update(inputBar, fakeInput);
 
@@ -30,59 +35,58 @@ describe("FoodItemInput", () => {
       "Please enter your food item"
     );
 
-    const fakeInputC = "c";
+    const fakeFoodItem = fakeFoodItems[1];
+    const fakeInputOneLetter = "t";
 
-    await fireEvent.update(inputBar, fakeInputC);
+    await fireEvent.update(inputBar, fakeInputOneLetter);
 
-    screen.getByText("cucumber");
-    screen.getByText("carrot");
+    screen.getByText(fakeFoodItems[0]);
+    screen.getByText(fakeFoodItem);
 
-    const fakeInputCa = "ca";
+    const fakeInputFourLetters = "tato";
 
-    await fireEvent.update(inputBar, fakeInputCa);
+    await fireEvent.update(inputBar, fakeInputFourLetters);
 
-    screen.getByText("carrot");
-    const cucumberOption = screen.queryByText("cucumber");
+    screen.getByText(fakeFoodItem);
+    const addtionalFoodOption = screen.queryByText(fakeFoodItems[0]);
 
-    expect(cucumberOption).toBeNull();
+    expect(addtionalFoodOption).toBeNull();
   });
   it("should show the suggested food item in the input bar if dropdown option is clicked on", async () => {
     const inputBar: HTMLInputElement = screen.getByPlaceholderText(
       "Please enter your food item"
     );
 
-    const fakeInputC = "c";
+    const fakeInputOneLetter = "c";
 
-    await fireEvent.update(inputBar, fakeInputC);
+    await fireEvent.update(inputBar, fakeInputOneLetter);
 
-    const cucumberSuggestion = "cucumber";
+    const cricketSuggestion = fakeFoodItems[2];
 
-    const cucumberOption = screen.getByText(cucumberSuggestion);
+    const cucumberOption = screen.getByText(cricketSuggestion);
 
     await fireEvent.click(cucumberOption);
 
-    expect(inputBar.value).toBe(cucumberSuggestion);
+    expect(inputBar.value).toBe(cricketSuggestion);
   });
   it("should hide suggested options if input bar is empty", async () => {
     const inputBar: HTMLInputElement = screen.getByPlaceholderText(
       "Please enter your food item"
     );
 
-    const fakeInputC = "c";
+    const fakeInputOneLetter = "t";
 
-    await fireEvent.update(inputBar, fakeInputC);
+    await fireEvent.update(inputBar, fakeInputOneLetter);
 
-    const cucumberSuggestion = "cucumber";
-
-    screen.getByText(cucumberSuggestion);
-    screen.getByText("carrot");
+    screen.getByText(fakeFoodItems[0]);
+    screen.getByText(fakeFoodItems[1]);
 
     await fireEvent.update(inputBar, "");
 
-    const cucumberOption = screen.queryByText(cucumberSuggestion);
-    const carrotOption = screen.queryByText("carrot");
+    const firstOption = screen.queryByText(fakeFoodItems[0]);
+    const secondOption = screen.queryByText(fakeFoodItems[1]);
 
-    expect(cucumberOption).toBeNull();
-    expect(carrotOption).toBeNull();
+    expect(firstOption).toBeNull();
+    expect(secondOption).toBeNull();
   });
 });

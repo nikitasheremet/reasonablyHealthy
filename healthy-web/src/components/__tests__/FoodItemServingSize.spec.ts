@@ -1,22 +1,30 @@
-import { describe, it, beforeEach, afterEach } from "vitest";
-import { render, screen, cleanup } from "@testing-library/vue";
+import { describe, it, beforeEach, afterEach, expect } from "vitest";
+import { render, screen, cleanup, fireEvent } from "@testing-library/vue";
 import FoodItemServingSize from "../FoodItemServingSize.vue";
+import userEvent from "@testing-library/user-event";
+// import "@testing-library/jest-dom";
+
+const fakeServingSizes = ["Small", "Handful", "1 cup"];
 
 describe("FoodItemServingSize", () => {
-  beforeEach(() => {
-    render(FoodItemServingSize);
+  const { debug } = render(FoodItemServingSize, {
+    props: { servingSizes: fakeServingSizes },
   });
   afterEach(() => {
     cleanup();
   });
-  it("should display dropdown which can be clicked and should show items populated from food json", () => {
-    const dropdown = screen.getByRole("combobox")
+  it("should display dropdown which can be clicked and should show items populated from serving sizes prop", async () => {
+    const dropdown = screen.getByRole("combobox");
 
-    console.log(dropdown)
+    for (const fakeServingSize of fakeServingSizes) {
+      screen.getByText(fakeServingSize);
+    }
+    const firstOption: HTMLOptionElement = screen.getByText(
+      fakeServingSizes[0]
+    );
 
-    const smallOption = screen.queryByDisplayValue("Small") as HTMLOptionElement
+    await userEvent.selectOptions(dropdown, firstOption.text);
 
-    
-    console.log(smallOption.selected)
-  })
+    expect(firstOption.selected).toBeTruthy();
+  });
 });
