@@ -15,7 +15,7 @@ const inputTextInFocus = ref(true);
 const filteredDownPossibleFoodItems = computed(() => {
   return arrayOfPossibleFoodItems.filter(
     (foodItemSuggestion) =>
-      inputText.value && foodItemSuggestion.includes(inputText.value)
+      inputText.value && foodItemSuggestion.includes(inputText.value.toLowerCase())
   );
 });
 
@@ -38,7 +38,9 @@ const handleInputFocusOut = (event: FocusEvent) => {
 };
 
 const handleInput = () => {
+  // console.log(inputText.value)
   inputTextInFocus.value = true;
+
 };
 
 const handleSuggestedFoodItemClick = (foodItemClicked: string) => {

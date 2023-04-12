@@ -1,5 +1,5 @@
 import { describe, expect, it, afterEach, beforeEach } from "vitest";
-import FoodItemInput from "../FoodItemInput.vue";
+import {FoodItemInput} from "../FoodEntry";
 
 import { render, screen, fireEvent, cleanup } from "@testing-library/vue";
 import fakeFoodItemDetails from "./fixtures/fakeFoodItems";

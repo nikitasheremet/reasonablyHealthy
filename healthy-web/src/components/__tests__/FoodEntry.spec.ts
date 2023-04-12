@@ -1,7 +1,7 @@
 import { afterEach, describe, expect, it, vitest } from "vitest";
 import { cleanup, render, screen } from "@testing-library/vue";
 import userEvent from "@testing-library/user-event";
-import FoodEntry from "../FoodEntry.vue";
+import FoodEntry from "../FoodEntry/FoodEntry.vue";
 import fakeFoodItems from "./fixtures/fakeFoodItems";
 
 vitest.mock("../../assests/foods", () => fakeFoodItems);
