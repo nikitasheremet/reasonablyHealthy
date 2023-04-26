@@ -1,0 +1,5 @@
+{
+    "pizza": ["small", "medium", "large"],
+    "burger": ["single", "double", "triple"],
+    "salad": ["side", "regular", "large"]
+}
