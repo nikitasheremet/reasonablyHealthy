@@ -15,11 +15,11 @@ function FoodInput({ foodItems, onSelect }: FoodInputProps) {
 
   function handleItemClick(item: string) {
     onSelect(item);
-    setInputValue("");
+    setInputValue(item);
   }
 
   const matchingItems = Object.keys(foodItems).filter((item) =>
-    item.toLowerCase().includes(inputValue.toLowerCase())
+    inputValue && item.toLowerCase().includes(inputValue.toLowerCase())
   );
 
   return (

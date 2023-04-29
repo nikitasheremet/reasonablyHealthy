@@ -30,8 +30,9 @@ describe('FoodForm component', () => {
 
   it('calls setSelectedItem when a food item is selected', () => {
     const setSelectedItem = jest.fn();
+    jest.spyOn(React, "useState").mockReturnValueOnce(['', setSelectedItem])
     const { queryByText } = render(
-      <FoodForm setSelectedItem={setSelectedItem} />
+      <FoodForm />
     );
     const input = queryByText('Food Item')?.querySelector('input');
     fireEvent.change(input!, { target: { value: 'pizza' } });
@@ -53,8 +54,11 @@ describe('FoodForm component', () => {
 
   it('calls setSelectedSize when a serving size is selected', () => {
     const setSelectedSize = jest.fn();
+    const setSelectedItem = jest.fn();
+    jest.spyOn(React, "useState").mockReturnValueOnce(['pizza', setSelectedItem])
+    jest.spyOn(React, "useState").mockReturnValueOnce(['', setSelectedSize])
     const { queryByText } = render(
-      <FoodForm selectedItem="pizza" setSelectedSize={setSelectedSize} />
+      <FoodForm />
     );
     const dropdown = queryByText('Serving Size')?.querySelector('select');
     fireEvent.change(dropdown!, { target: { value: 'medium' } });

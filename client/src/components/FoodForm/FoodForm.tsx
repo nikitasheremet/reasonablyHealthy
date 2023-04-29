@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import foodItemsJSON from "../../foodItems.json";
 import FoodInput from "./FoodInput";
 import FoodItemServingSize from "./FoodItemServingSize";
+import FoodList from "./FoodList";
 
 type FoodItems = Record<string, string[]>;
 
@@ -10,6 +11,22 @@ function FoodForm(): JSX.Element {
 
   const [selectedItem, setSelectedItem] = useState<string>("");
   const [selectedSize, setSelectedSize] = useState<string>("");
+  const [savedFoodItems, setFoodItems] = useState(() => {
+    // Try to get the food items from local storage, or use a default array
+    const savedItems = localStorage.getItem('savedFoodItems');
+    return savedItems ? JSON.parse(savedItems) : [];
+  });
+
+  // Save the current array of food items to local storage whenever it changes
+  useEffect(() => {
+    localStorage.setItem('savedFoodItems', JSON.stringify(savedFoodItems));
+  }, [savedFoodItems]);
+
+  const addFoodItem = () => {
+    // Create a new item with a unique ID and add it to the array
+    const newItem = { id: Date.now(), name: selectedItem, size: selectedSize };
+    setFoodItems([...savedFoodItems, newItem]);
+  };
 
   function handleSelectItem(item: string): void {
     setSelectedItem(item);
@@ -25,19 +42,17 @@ function FoodForm(): JSX.Element {
       <h2>Food Form</h2>
       <FoodInput foodItems={foodItems} onSelect={handleSelectItem} />
       <br />
-      <div>
-        <h3>{selectedItem}</h3>
-        <FoodItemServingSize
-          servingSizes={foodItems[selectedItem] || []}
-          onSelectSize={handleSelectSize}
-        />
-      </div>
+      <p>Selected size is: {selectedSize}. Selected Item is: {selectedItem}</p>
+      <FoodItemServingSize
+        servingSizes={foodItems[selectedItem] || []}
+        onSelectSize={handleSelectSize}
+      />
       <br />
-      {selectedSize !== "" && (
-        <div>
-          <h4>Selected Serving Size: {selectedSize}</h4>
-        </div>
-      )}
+      <button onClick={addFoodItem} disabled={!(selectedItem && selectedSize)} >Add Item</button>
+      
+      <FoodList foodItems={savedFoodItems} />
+
+      <button onClick={() => localStorage.clear()} >Clear local storage food items</button>
     </div>
   );
 }
