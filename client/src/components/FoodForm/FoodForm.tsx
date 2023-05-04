@@ -5,13 +5,19 @@ import FoodItemServingSize from "./FoodItemServingSize";
 import FoodList from "./FoodList";
 
 type FoodItems = Record<string, string[]>;
+export interface SavedFoodItem {
+  date: number;
+  name: string;
+  size: string;
+}
+type SavedFoodItems = Array<SavedFoodItem>
 
 function FoodForm(): JSX.Element {
   const foodItems: FoodItems = foodItemsJSON;
 
   const [selectedItem, setSelectedItem] = useState<string>("");
   const [selectedSize, setSelectedSize] = useState<string>("");
-  const [savedFoodItems, setFoodItems] = useState(() => {
+  const [savedFoodItems, setFoodItems] = useState<SavedFoodItems>(() => {
     // Try to get the food items from local storage, or use a default array
     const savedItems = localStorage.getItem('savedFoodItems');
     return savedItems ? JSON.parse(savedItems) : [];
@@ -24,7 +30,7 @@ function FoodForm(): JSX.Element {
 
   const addFoodItem = () => {
     // Create a new item with a unique ID and add it to the array
-    const newItem = { id: Date.now(), name: selectedItem, size: selectedSize };
+    const newItem = { date: Date.now(), name: selectedItem, size: selectedSize };
     setFoodItems([...savedFoodItems, newItem]);
   };
 
