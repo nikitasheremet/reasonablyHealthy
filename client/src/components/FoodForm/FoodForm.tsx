@@ -13,7 +13,10 @@ export interface SavedFoodItem {
 type SavedFoodItems = Array<SavedFoodItem>
 
 function FoodForm(): JSX.Element {
-  const foodItems: FoodItems = foodItemsJSON;
+  const [foodItems, saveFoodItems] = useState<FoodItems>({})
+
+
+  // const foodItems: FoodItems = foodItemsJSON;
 
   const [selectedItem, setSelectedItem] = useState<string>("");
   const [selectedSize, setSelectedSize] = useState<string>("");
@@ -22,6 +25,24 @@ function FoodForm(): JSX.Element {
     const savedItems = localStorage.getItem('savedFoodItems');
     return savedItems ? JSON.parse(savedItems) : [];
   });
+
+  useEffect(() => {
+    console.log("IN HERE");
+    (async () => {
+      console.log("AAA")
+      try {
+        const fetchResult = await fetch('https://nikitasheremet-friendly-system-x9r5975p6vxhvrjp-3005.preview.app.github.dev/foods')
+        console.log("fetch result", fetchResult)
+        const foodResult = await fetchResult.json()
+        console.log("food result", foodResult)
+        saveFoodItems(foodResult)
+      } catch (err) {
+        console.log(err)
+      }
+
+    })()
+
+  }, [])
 
   // Save the current array of food items to local storage whenever it changes
   useEffect(() => {
@@ -55,7 +76,7 @@ function FoodForm(): JSX.Element {
       />
       <br />
       <button onClick={addFoodItem} disabled={!(selectedItem && selectedSize)} >Add Item</button>
-      
+
       <FoodList foodItems={savedFoodItems} />
 
       <button onClick={() => localStorage.clear()} >Clear local storage food items</button>
