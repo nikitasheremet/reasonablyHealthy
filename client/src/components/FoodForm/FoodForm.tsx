@@ -3,6 +3,7 @@ import foodItemsJSON from "../../foodItems.json";
 import FoodInput from "./FoodInput";
 import FoodItemServingSize from "./FoodItemServingSize";
 import FoodList from "./FoodList";
+import axios from "axios";
 
 type FoodItems = Record<string, string[]>;
 export interface SavedFoodItem {
@@ -31,11 +32,12 @@ function FoodForm(): JSX.Element {
     (async () => {
       console.log("AAA")
       try {
-        const fetchResult = await fetch('https://nikitasheremet-friendly-system-x9r5975p6vxhvrjp-3005.preview.app.github.dev/foods')
-        console.log("fetch result", fetchResult)
-        const foodResult = await fetchResult.json()
+        const foodResult = await axios.get('https://nikitasheremet-friendly-system-x9r5975p6vxhvrjp-3005.preview.app.github.dev/foods')
+        //const fetchResult = await fetch('https://nikitasheremet-friendly-system-x9r5975p6vxhvrjp-3005.preview.app.github.dev/foods')
+        //console.log("fetch result", fetchResult)
+        //const foodResult = await fetchResult.json()
         console.log("food result", foodResult)
-        saveFoodItems(foodResult)
+        saveFoodItems(foodResult.data)
       } catch (err) {
         console.log(err)
       }

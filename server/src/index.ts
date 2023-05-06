@@ -1,4 +1,5 @@
 import express, { Request, Response } from 'express';
+import cors from 'cors'
 
 // Define the food items and serving sizes
 const foodItems = {
@@ -9,6 +10,8 @@ const foodItems = {
 
 // Create the Express app
 const app = express();
+
+app.use(cors())
 
 // Define the GET endpoint
 app.get('/foods', (req: Request, res: Response) => {
