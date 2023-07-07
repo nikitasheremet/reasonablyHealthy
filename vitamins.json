@@ -9,8 +9,8 @@
   "vitaminD": {
     "alternateName": [],
     "dose": {
-      "unitOfMeasurement": "IU",
-      "value": 600
+      "unitOfMeasurement": "mcg",
+      "value": 15
     }
   },
   "vitaminE": {

@@ -1,0 +1,378 @@
+{
+    "vitaminA": {
+        "soluble": "fat", 
+        "foods": [
+            {"name": "carrot", "value": 852, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "tuna", "value": 757, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "butternut squash", "value": 558, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "sweet potato", "value": 961, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "spinach", "value": 524, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "cantaloupe", "value": 169, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "lettuce", "value": 436, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "red bell pepper", "value": 147, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "pink grapefruit", "value": 58, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "broccoli", "value": 524, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "beef liver", "value": 7730, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "cod liver oil", "value": 4080, "unitOfMeasurement": "mcg", "servingSize": 14, "servingSizeUnit": "g"},
+            {"name": "butter", "value": 95, "unitOfMeasurement": "mcg", "servingSize": 14, "servingSizeUnit": "g"},
+            {"name": "kale", "value": 172, "unitOfMeasurement": "mcg", "servingSize": 118, "servingSizeUnit": "g"}
+        ]
+    },
+    "vitaminB1": {
+        "soluble": "",
+        "foods": [
+            {"name": "salmon", "value": 0.3, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "black beans", "value": 0.4, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "green peas", "value": 0.3, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "firm tofu", "value": 0.2, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "brown rice", "value": 0.2, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "quinoa", "value": 0.2, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "asparagus", "value": 0.2, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "mussels", "value": 0.3, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "sunflower seeds", "value": 0.1, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "lentils", "value": 0.16, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"}
+        ]   
+    },
+    "vitaminB2": {
+        "soluble": "",
+        "foods": [
+            {"name": "salmon", "value": 0.5, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "mushrooms", "value": 0.5, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "spinach", "value": 0.2, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "almonds", "value": 1.1, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "avocados", "value": 0.1, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "eggs", "value": 0.5, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "beef", "value": 0.4, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "kale", "value": 0.3, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "sunflower seeds", "value": 0.5, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "yogurt", "value": 0.3, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"}
+        ]   
+    },
+    "vitaminB3": {
+        "soluble": "",
+        "foods": [
+            {"name": "beef liver", "value": 14.7, "unitOfMeasurement": "mg", "servingSize": 85, "servingSizeUnit": "g"},
+            {"name": "chicken breast", "value": 11.4, "unitOfMeasurement": "mg", "servingSize": 85, "servingSizeUnit": "g"},
+            {"name": "tuna", "value": 21.9, "unitOfMeasurement": "mg", "servingSize": 165, "servingSizeUnit": "g"},
+            {"name": "penuts", "value": 4.3, "unitOfMeasurement": "mg", "servingSize": 32, "servingSizeUnit": "g"},
+            {"name": "avocados", "value": 3.5, "unitOfMeasurement": "mg", "servingSize": 201, "servingSizeUnit": "g"},
+            {"name": "mushrooms", "value": 2.5, "unitOfMeasurement": "mg", "servingSize": 70, "servingSizeUnit": "g"},
+            {"name": "green peas", "value": 3, "unitOfMeasurement": "mg", "servingSize": 145, "servingSizeUnit": "g"},
+            {"name": "beef", "value": 5.8, "unitOfMeasurement": "mg", "servingSize": 85, "servingSizeUnit": "g"},
+            {"name": "brown rice", "value": 5.2, "unitOfMeasurement": "mg", "servingSize": 200, "servingSizeUnit": "g"},
+            {"name": "nutritional yeast", "value": 0.3, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"}
+        ]   
+    },
+    "vitaminB5": {
+        "soluble": "",
+        "foods": [
+            {"name": "salmon", "value": 1.9, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "chicken breast", "value": 1.6, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "sunflower seeds", "value": 7, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "sweet potato", "value": 0.5, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "avocados", "value": 1.4, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "mushrooms - shitake", "value": 3.6, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "lentils", "value": 0.6, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "beef liver", "value": 6.67, "unitOfMeasurement": "mg", "servingSize": 85, "servingSizeUnit": "g"},
+            {"name": "penuts", "value": 1.77, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "eggs", "value": 1.4, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"}
+        ]   
+    },
+    "vitaminB6": {
+        "soluble": "",
+        "foods": [
+            {"name": "salmon", "value": 0.9, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "chicken breast", "value": 0.9, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "bananas", "value": 0.4, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "sweet potato", "value": 0.2, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "avocados", "value": 0.3, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "mushrooms", "value": 2.5, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "potatoes", "value": 0.3, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "pistachio nuts", "value": 1.7, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "beef liver", "value": 0.9, "unitOfMeasurement": "mg", "servingSize": 85, "servingSizeUnit": "g"},
+            {"name": "spinach", "value": 0.25, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"}
+        ]   
+    },
+    "vitaminB7": {
+        "soluble": "",
+        "foods": [
+            {"name": "eggs", "value": 21.4, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "penuts", "value": 17.5, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "sunflower seeds", "value": 7.8, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "almonds", "value": 4.4, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "walnuts", "value": 2.6, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "buckwheat flour", "value": 17, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "flaxseed", "value": 33.8, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "quinoa", "value": 26.2, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "beef liver", "value": 41.6, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "pecans", "value": 22.7, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"}
+        ]   
+    },
+    "vitaminB9": {
+        "soluble": "",
+        "foods": [
+            {"name": "chickpeas", "value": 557, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "lentils", "value": 460, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "black beans", "value": 431, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "penuts", "value": 68, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "sunflower seeds", "value": 67, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "seaweed - wakame", "value": 20, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "spinach", "value": 58, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "quinoa", "value": 157, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "avocados", "value": 121, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "asparagus", "value": 70, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"}
+        ]   
+    },
+    "vitaminB12": {
+        "soluble": "water",
+        "foods": [
+            {"name": "eggs", "value": 1.1, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "beef liver", "value": 67, "unitOfMeasurement": "mcg", "servingSize": 113, "servingSizeUnit": "g"},
+            {"name": "mussels", "value": 20.7, "unitOfMeasurement": "mcg", "servingSize": 85, "servingSizeUnit": "g"},
+            {"name": "clams", "value": 98.9, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "octopus", "value": 36, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "crab", "value": 11.5, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "tuna", "value": 10.9, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "lamb", "value": 1.27, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "haddock", "value": 0.6, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "trout", "value": 2.52, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"}
+        ]   
+    },
+    "vitaminC": {
+        "soluble": "water",
+        "foods": [
+            {"name": "broccoli", "value": 64.9, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "brussel sprouts", "value": 62, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "cauliflower", "value": 22.1, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "clams", "value": 22.1, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "pink grapefruit", "value": 37, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "green bell pepper", "value": 80.4, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "lychee", "value": 71.5, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "mango", "value": 36.4, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "orange", "value": 53.2, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "pineapple", "value": 47.8, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"}
+        ]   
+    },
+    "vitaminD": {
+        "soluble": "fat",
+        "foods": [
+            {"name": "mackerel", "value": 16.1, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "beef liver", "value": 1.2, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "canned salmon", "value": 13.7, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "cod liver oil", "value": 250, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "eggs", "value": 2.46, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "halibut", "value": 5.8, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "herring", "value": 5.3, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "mushrooms", "value": 13.1, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "trout", "value": 19, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "salmon", "value": 16.7, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"}
+        ]   
+    },
+    "vitaminE": {
+        "soluble": "fat",
+        "foods": [
+            {"name": "almonds", "value": 25.6, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "asparagus", "value": 1.13, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "avocados", "value": 2.07, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "crab", "value": 1.84, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "hazelnuts", "value": 15, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "olive oil", "value": 20.9, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "penuts", "value": 8.33, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "pine nuts", "value": 9.33, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "red bell pepper", "value": 1.58, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "spinach", "value": 2.38, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"}
+        ]   
+    },
+    "vitaminK": {
+        "soluble": "fat",
+        "foods": [
+            {"name": "spinach", "value": 494, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "kale", "value": 418, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "broccoli", "value": 2.07, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "kimchi", "value": 43.6, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "bok choy", "value": 34, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "asparagus", "value": 50.6, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "eggs", "value": 8, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "butter", "value": 20.9, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "beet greens", "value": 484, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "dandelion greens", "value": 551, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"}
+        ]   
+    },
+    "calcium": {
+        "soluble": "",
+        "foods": [
+            {"name": "bok choy", "value": 105, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "broccoli", "value": 46, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "cheddar cheeses", "value": 707, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "dandelion greens", "value": 187, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "kale", "value": 254, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "parmesan cheeses", "value": 884, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "canned salmon", "value": 283, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "whey protein", "value": 698, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "sardines", "value": 382, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "turnip greens", "value": 190, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"}
+        ]   
+    },
+    "chromium": {
+        "soluble": "",
+        "foods": [
+            {"name": "mussels", "value": 128, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "oysters", "value": 57, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "shrimp", "value": 26, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "brazil nuts", "value": 20, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "whole wheat", "value": 21, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "grape juice", "value": 7.5, "unitOfMeasurement": "mcg", "servingSize": 240, "servingSizeUnit": "g"},
+            {"name": "orange juice", "value": 2.2, "unitOfMeasurement": "mcg", "servingSize": 240, "servingSizeUnit": "g"},
+            {"name": "brewers yeast", "value": 9, "unitOfMeasurement": "mcg", "servingSize": 12, "servingSizeUnit": "g"},
+            {"name": "broccoli", "value": 11, "unitOfMeasurement": "mcg", "servingSize": 35, "servingSizeUnit": "g"},
+            {"name": "turkey", "value": 2, "unitOfMeasurement": "mcg", "servingSize": 85, "servingSizeUnit": "g"}
+        ]   
+    },
+    "copper": {
+        "soluble": "",
+        "foods": [
+            {"name": "avocados", "value": 0.19, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "beet greens", "value": 0.25, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "sunflower seeds", "value": 1.83, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "lentils", "value": 0.25, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "crab", "value": 1.18, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "beef liver", "value": 14.3, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "whey protein", "value": 1.16, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "oyster", "value": 4.46, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "penuts", "value": 1.27, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "pecans", "value": 1.20, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"}
+        ]   
+    },
+    "iodine": {
+        "soluble": "",
+        "foods": [
+            {"name": "dried seaweed", "value": 10000, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "cod", "value": 99, "unitOfMeasurement": "mcg", "servingSize": 85, "servingSizeUnit": "g"},
+            {"name": "milk", "value": 94, "unitOfMeasurement": "mcg", "servingSize": 240, "servingSizeUnit": "g"},
+            {"name": "potatoes", "value": 60, "unitOfMeasurement": "mcg", "servingSize": 200, "servingSizeUnit": "g"},
+            {"name": "eggs", "value": 49, "unitOfMeasurement": "mcg", "servingSize": 140, "servingSizeUnit": "g"},
+            {"name": "shrimp", "value": 35, "unitOfMeasurement": "mcg", "servingSize": 85, "servingSizeUnit": "g"},
+            {"name": "turkey", "value": 34, "unitOfMeasurement": "mcg", "servingSize": 85, "servingSizeUnit": "g"},
+            {"name": "cheddar cheeses", "value": 12, "unitOfMeasurement": "mcg", "servingSize": 28, "servingSizeUnit": "g"},
+            {"name": "tuna", "value": 17, "unitOfMeasurement": "mcg", "servingSize": 85, "servingSizeUnit": "g"},
+            {"name": "prunes", "value": 13, "unitOfMeasurement": "mcg", "servingSize": 40, "servingSizeUnit": "g"}
+        ]   
+    },
+    "iron": {
+        "soluble": "",
+        "foods": [
+            {"name": "oyster", "value": 5.78, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "beef skirt", "value": 5.46, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "octopus", "value": 5.3, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "cocoa", "value": 13.9, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "hemp seeds", "value": 7.95, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "cashew", "value": 6.68, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "flaxseed", "value": 5.73, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "penuts", "value": 4.58, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "almonds", "value": 3.71, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "hazelnuts", "value": 4.7, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"}
+        ]   
+    },
+    "magnesium": {
+        "soluble": "",
+        "foods": [
+            {"name": "cocoa", "value": 499, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "spinach", "value": 87, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "hemp seeds", "value": 700, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "almonds", "value": 270, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "chia seeds", "value": 335, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "brazil nuts", "value": 376, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "mackerel", "value": 97, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "cashew", "value": 252, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "pumpkin seeds", "value": 550, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "black beans", "value": 70, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"}
+        ]   
+    },
+    "manganese": {
+        "soluble": "",
+        "foods": [
+            {"name": "blueberries", "value": 0.336, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "brown rice", "value": 0.97, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "chickpeas", "value": 1.03, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "edamame", "value": 1.01, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "mussels", "value": 6.8, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "pecans", "value": 4.5, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "spinach", "value": 0.93, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "sunflower seeds", "value": 1.95, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "whole wheat", "value": 4.07, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "wheat bran", "value": 11.5, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"}
+        ]   
+    },
+    "molybdenum": {
+        "soluble": "",
+        "foods": [
+            {"name": "black eyed peas", "value": 288, "unitOfMeasurement": "mcg", "servingSize": 85, "servingSizeUnit": "g"},
+            {"name": "beef liver", "value": 104, "unitOfMeasurement": "mcg", "servingSize": 85, "servingSizeUnit": "g"},
+            {"name": "yogurt", "value": 26, "unitOfMeasurement": "mcg", "servingSize": 240, "servingSizeUnit": "g"},
+            {"name": "potatoes", "value": 16, "unitOfMeasurement": "mcg", "servingSize": 200, "servingSizeUnit": "g"},
+            {"name": "bananas", "value": 15, "unitOfMeasurement": "mcg", "servingSize": 118, "servingSizeUnit": "g"},
+            {"name": "penuts", "value": 11, "unitOfMeasurement": "mcg", "servingSize": 28, "servingSizeUnit": "g"},
+            {"name": "chicken breast", "value": 9, "unitOfMeasurement": "mcg", "servingSize": 85, "servingSizeUnit": "g"},
+            {"name": "eggs", "value": 9, "unitOfMeasurement": "mcg", "servingSize": 70, "servingSizeUnit": "g"},
+            {"name": "spinach", "value": 8, "unitOfMeasurement": "mcg", "servingSize": 30, "servingSizeUnit": "g"},
+            {"name": "pecans", "value": 8, "unitOfMeasurement": "mcg", "servingSize": 28, "servingSizeUnit": "g"}
+        ]   
+    },
+    "selenium": {
+        "soluble": "",
+        "foods": [
+            {"name": "brazil nuts", "value": 1917, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "tuna", "value": 108, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "oysters", "value": 154, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "beef skirt", "value": 36, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "chicken breast", "value": 32, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "firm tofu", "value": 17.4, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "whole wheat pasta", "value": 36, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "shrimp", "value": 50, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "sunflower seeds", "value": 79, "unitOfMeasurement": "mcg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "salmon", "value": 80, "unitOfMeasurement": "mcg", "servingSize": 170, "servingSizeUnit": "g"}
+        ]   
+    },
+    "zinc": {
+        "soluble": "",
+        "foods": [
+            {"name": "beef", "value": 4.8, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "oysters", "value": 61, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "firm tofu", "value": 2, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "pumpkin seeds", "value": 10, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "lentils", "value": 1, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "chickpeas", "value": 1.5, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "cashew", "value": 3, "unitOfMeasurement": "mg", "servingSize": 50, "servingSizeUnit": "g"},
+            {"name": "hemp seeds", "value": 3, "unitOfMeasurement": "mg", "servingSize": 66, "servingSizeUnit": "g"},
+            {"name": "crab", "value": 6.5, "unitOfMeasurement": "mg", "servingSize": 85, "servingSizeUnit": "g"}
+        ]   
+    },
+    "phosphorus": {
+        "soluble": "",
+        "foods": [
+            {"name": "firm tofu", "value": 190, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "tuna", "value": 333, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "salmon", "value": 519, "unitOfMeasurement": "mg", "servingSize": 170, "servingSizeUnit": "g"},
+            {"name": "tuna", "value": 10, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "chicken breast", "value": 241, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "scallops", "value": 426, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "lentils", "value": 180, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "pumpkin seeds", "value": 1233, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "quinoa", "value": 152, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"}
+        ]   
+    },
+    "potassium": {
+        "soluble": "",
+        "foods": [
+            {"name": "salmon", "value": 628, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "avocados", "value": 485, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "potatoes", "value": 535, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "mushrooms", "value": 356, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "bananas", "value": 358, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "tomatoes", "value": 218, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "spinach", "value": 466, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "sweet potato", "value": 210, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"},
+            {"name": "bok choy", "value": 371, "unitOfMeasurement": "mg", "servingSize": 100, "servingSizeUnit": "g"}
+        ]   
+    }
+}

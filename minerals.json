@@ -58,8 +58,8 @@
   "copper": {
     "alternateName": [],
     "dose": {
-      "unitOfMeasurement": "mcg",
-      "value": 900
+      "unitOfMeasurement": "mg",
+      "value": 0.9
     }
   },
   "iodine": {
